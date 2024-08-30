@@ -16,7 +16,7 @@ void inline initBoard() {
   digitalWrite(PIN_LED1, LOW);
   digitalWrite(PIN_LED2, LOW);
   pixels.begin();
-  pixels.setBrightness(128);
+  pixels.setBrightness(16);
   pixels.clear();
 }
 
